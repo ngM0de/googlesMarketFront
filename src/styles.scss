@@ -1,0 +1,21 @@
+@use './styles/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: black;
+  font-size: fonts.$textNormal;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.9rem;
+}
